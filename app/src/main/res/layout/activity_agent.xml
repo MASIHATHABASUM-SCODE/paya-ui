@@ -36,7 +36,7 @@
                 android:layout_marginTop="15dp"
                 android:text="@string/cm"
                 android:textColor="@color/black"
-                android:textSize="13sp" />
+                android:textSize="18sp" />
 
             <androidx.cardview.widget.CardView
                 style="@style/card"
