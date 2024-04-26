@@ -1,0 +1,20 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.TaskI" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your light theme here. -->
+         <item name="colorPrimary">@color/yellow</item>
+    </style>
+
+
+    <style name="Theme.TaskI" parent="Base.Theme.TaskI" />
+    <style name="card" parent="CardView">
+        <item name="cardElevation">1dp</item>
+        <item name="cardMaxElevation">1.1dp</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="cardCornerRadius">25dp</item>
+        <item name="cardPreventCornerOverlap">true</item>
+        <item name="cardBackgroundColor">@android:color/white</item>
+
+    </style>
+</resources>

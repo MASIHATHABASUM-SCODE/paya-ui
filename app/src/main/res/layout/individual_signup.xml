@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/fitStart">
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="8dp"
+        android:text="@string/cm" />
+
+    <EditText
+        android:id="@+id/editTextText4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="18dp"
+        android:layout_marginEnd="16dp"
+        android:background="@drawable/etstyle"
+        android:backgroundTint="@color/e1b"
+        android:ems="10"
+        android:inputType="text"
+        android:padding="6dp" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="10dp"
+        android:text="@string/fulln" />
+
+    <EditText
+        android:id="@+id/editTextText5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="18dp"
+        android:layout_marginEnd="16dp"
+        android:background="@drawable/etstyle"
+        android:backgroundTint="@color/e1b"
+        android:ems="10"
+        android:inputType="text"
+        android:padding="6dp" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="10dp"
+        android:text="@string/mainph" />
+
+    <EditText
+        android:id="@+id/editTextText6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="18dp"
+
+        android:layout_marginEnd="16dp"
+        android:background="@drawable/etstyle"
+        android:backgroundTint="@color/e1b"
+        android:ems="10"
+        android:inputType="text"
+        android:padding="6dp" />
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="10dp"
+        android:text="@string/secph" />
+
+    <EditText
+        android:id="@+id/editTextText10"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="18dp"
+
+        android:layout_marginEnd="16dp"
+        android:background="@drawable/etstyle"
+        android:backgroundTint="@color/e1b"
+        android:ems="10"
+        android:inputType="text"
+        android:padding="6dp" />
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="10dp"
+        android:text="@string/pas" />
+
+    <EditText
+        android:id="@+id/editTextText11"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="18dp"
+
+        android:layout_marginEnd="16dp"
+        android:background="@drawable/etstyle"
+        android:backgroundTint="@color/e1b"
+        android:ems="10"
+        android:padding="6dp" />
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="10dp"
+        android:text="@string/cp" />
+
+    <EditText
+        android:id="@+id/editTextText12"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="18dp"
+
+        android:layout_marginEnd="16dp"
+        android:background="@drawable/etstyle"
+        android:backgroundTint="@color/e1b"
+        android:ems="10"
+        android:padding="10dp" />
+
+    <CheckBox
+        android:id="@+id/checkBox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/ck"
+        android:buttonTint="@color/yellow" />
+
+    <CheckBox
+        android:id="@+id/checkBox2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/hyperlink"
+        android:buttonTint="@color/yellow" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="90dp"
+        android:background="@drawable/b1"
+        android:backgroundTint="@color/yellow"
+        android:gravity="center"
+        android:padding="16dp"
+        android:text="@string/a3"
+        android:textColor="@color/black" />
+
+    <TextView
+        android:id="@+id/textView18"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="90dp"
+        android:text="@string/el" />
+
+</LinearLayout>
+

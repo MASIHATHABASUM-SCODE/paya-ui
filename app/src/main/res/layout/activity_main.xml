@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/backgound"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:layout_gravity="center">
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_centerHorizontal="true"
+        android:maxHeight="15dp"
+        android:src="@drawable/applogo" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/imageView"
+        android:layout_marginTop="28dp"
+        android:gravity="center"
+        android:text="@string/a1"
+        android:textColor="@color/black"
+        android:textSize="25sp" />
+
+
+
+    <EditText
+        android:id="@+id/editTextText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="16dp"
+        android:background="@drawable/etstyle"
+        android:ems="10"
+        android:hint="@string/a5"
+
+        android:inputType="text"
+        android:padding="16dp"
+        android:textColor="@color/black"
+        android:textColorHint="@color/grey"
+        android:backgroundTint="@color/e1b"/>
+
+    <RelativeLayout
+        android:id="@+id/rel1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editTextText"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="16dp"
+        android:background="@drawable/etstyle">
+
+        <EditText
+            android:id="@+id/editTextText2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:background="@drawable/etstyle"
+            android:hint="@string/pass"
+            android:inputType="textPassword"
+            android:padding="16dp"
+            android:textColorHint="@color/grey"
+            android:backgroundTint="@color/e1b"/>
+
+        <ImageView
+            android:id="@+id/showhidepass"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="15dp"
+            android:layout_marginEnd="10dp"
+            android:src="@drawable/eye_show"
+            android:backgroundTint="@color/e1b"/>
+    </RelativeLayout>
+
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editTextText2"
+       android:layout_marginTop="10dp"
+        android:gravity="center"
+
+
+        android:text="@string/a2"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+
+        />
+
+
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView3"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="16dp"
+        android:background="@drawable/b1"
+        android:backgroundTint="@color/yellow"
+        android:padding="16dp"
+        android:text="@string/a3"
+        android:textColor="@color/black" />
+
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="wrap_content"
+        android:layout_height="34dp"
+        android:layout_below="@id/button"
+        android:layout_gravity="center"
+        android:background="@drawable/b1"
+        android:backgroundTint="@color/yellow"
+        android:gravity="center"
+        android:paddingStart="4dp"
+        android:paddingEnd="4dp"
+        android:layout_marginTop="25dp"
+        android:text="@string/a4" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="25dp"
+        android:background="@drawable/b1"
+        android:backgroundTint="@color/yellow"
+        android:gravity="center"
+        android:paddingStart="4dp"
+        android:paddingEnd="4dp"
+        android:text="RECYCLERVIEW" />
+
+</LinearLayout>

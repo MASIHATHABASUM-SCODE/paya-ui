@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">taskI</string>
+    <string name="a1">Login</string>
+    <string name="a2">Forget your password ?</string>
+    <string name="a3">Login</string>
+    <string name="a4">CREATE NEW ACCOUNT</string>
+    <string name="a5">Name</string>
+    <string name="a6">value</string>
+    <string name="pass">Password</string>
+    <string name="st">Select User Type</string>
+    <string name="id">Individual</string>
+    <string name="id2">Agency</string>
+    <string name="fn">First Name</string>
+    <string name="ln">Last Name</string>
+    <string name="mb">Mobile</string>
+    <string name="email">Email (optional)</string>
+    <string name="pas">Password</string>
+    <string name="cp">Confirm Password</string>
+    <string name="ck">Subscribe Newsletters</string>
+    <string name="ck2">I agree to the Terms and Condition and privacy policy of paya</string>
+    <string name="cm">Company Name</string>
+    <string name="el">Already have an account..? </string>
+    <string name="el2"><a href="https://twitter.com/tech_queen">LOGIN</a></string>
+    <string name="fulln">Full Name</string>
+    <string name="mainph">Main Phone Number</string>
+    <string name="secph">Second Phone Number</string>
+    <string name="hyperlink">I agree to the <a href="https://twitter.com/tech_queen">Terms and Conditions</a> &amp;<a href="https://twitter.com/tech_queen"> Privacy Policy</a> of paya </string>
+    <string name="loc">Location</string>
+    <string name="logo">Company Logo</string>
+    <string name="company_logo">Company Logo</string>
+    <string name="cnn">"some of the string "</string>
+    <string name="number">number</string>
+    <string name="about_size">about size</string>
+    <string name="about_picture">about picture</string>
+    <string name="number2">number2</string>
+    <string name="price">price</string>
+
+
+</resources>
